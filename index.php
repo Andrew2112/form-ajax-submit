@@ -12,14 +12,14 @@
 <body>
 <div class="container">
     <div class="row">
-        <form method="post">
+        <form method="post" id="form" >
             <div class="form-group">
                 <label for="name">Имя</label>
-                <input type="text" class="form-control" id="name">
+                <input type="text" class="form-control" id="name" name="name" onkeyup="checkParams()">
             </div>
             <div class="form-group">
                 <label for="email">E-mail</label>
-                <input type="email" class="form-control" id="email" >
+                <input type="email" class="form-control" id="email" name="email" onkeyup="checkParams()">
 
             </div>
             <div class="form-group">
@@ -27,13 +27,15 @@
                 <input type="password" class="form-control" id="password">
             </div>
 
-            <button type="submit" class="btn btn-primary">Отправить</button>
+            <button type="submit" class="btn btn-primary submit" disabled>Отправить</button>
+            <div class="form-group answer"></div>
         </form>
     </div>
 </div>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+<script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
         crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"

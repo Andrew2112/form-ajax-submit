@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4746bcec-3d33-4a19-97c0-b092525cfcde" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/send.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/form-ajax-submit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/form-ajax-submit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -48,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1594625371052</updated>
       <workItem from="1594625374550" duration="41000" />
-      <workItem from="1594625431542" duration="880000" />
+      <workItem from="1594625431542" duration="12332000" />
     </task>
     <servers />
   </component>
@@ -60,10 +65,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="453" y="126" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.680@0.0.1280.680" timestamp="1594625381165" />
-    <state x="608" y="313" key="NewPhpFileDialog" timestamp="1594625445229">
+    <state x="608" y="313" key="NewPhpFileDialog" timestamp="1594640368917">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="608" y="313" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1594625445229" />
+    <state x="608" y="313" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1594640368917" />
+    <state x="0" y="0" key="SettingsEditor" timestamp="1594635430457">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="0" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1594635430457" />
     <state x="468" y="213" key="com.intellij.ide.util.TipDialog" timestamp="1594625431802">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
