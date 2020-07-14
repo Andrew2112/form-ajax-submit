@@ -1,7 +1,8 @@
 function checkParams() {
     let name = $('#name').val();
     let email = $('#email').val();
-    if(name != '' && email != '' ) {
+    let password = $('#password').val();
+    if(name != '' && email != '' && password !='' ) {
         $('.submit').removeAttr('disabled');
     } else {
         $('.submit').attr('disabled', 'disabled');

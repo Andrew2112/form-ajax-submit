@@ -24,7 +24,7 @@
             </div>
             <div class="form-group">
                 <label for="password">Пароль</label>
-                <input type="password" class="form-control" id="password">
+                <input type="password" class="form-control" id="password" name="password" onkeyup="checkParams()">
             </div>
 
             <button type="submit" class="btn btn-primary submit" disabled>Отправить</button>
