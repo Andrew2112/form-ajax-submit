@@ -18,14 +18,20 @@ $(document).ready(function () {
         url: 'send.php',
         type: 'POST',
         data: data,
+        beforeSend: function () {
+            $('.loader').fadeIn();
+        },
         success: function (res) {
-            if (res=='yes'){
+            $('.loader').fadeOut('slow', function () {
+                if (res=='yes'){
                 $('.answer'). text('Данные приняты').fadeOut(3500);
                 $('form').trigger('reset');
                 $('.submit').attr('disabled', 'disabled');
             }else if(res=='no'){
                 $('.answer'). text('Логин занят');
             }
+            });
+
 
         },
         error: function () {
